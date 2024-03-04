@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'g++ hello.cpp -o hello // Replace with your actual compilation command
+                sh 'g++ hello.cpp -o hello 
             }
         }
         stage('Test') {
             steps {
-                sh './hello' // Replace with your actual execution command
+                sh './hello' 
             }
         }
         stage('Deploy') {
